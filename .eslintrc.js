@@ -3,10 +3,10 @@ module.exports = {
     node: true,
     es2022: true,
     browser: true,
-  },<table>
-<tr>
-<td>  },</td>
-</tr>
+  },
+   <table>
+  <tr>
+<td>  },</td></tr>
 </table>
   extends: ['eslint:recommended', 'plugin:astro/recommended', 'plugin:astro/jsx-a11y-strict'],
   parserOptions: {
@@ -49,4 +49,4 @@ module.exports = {
       parser: '@typescript-eslint/parser',
     },
   ],
-}
+
