@@ -1,17 +1,15 @@
 {
   "name": "astrotheme",
-  "description": "",
-  "version": "1.0.0",
+  "description": "![social-preview-image](https://user-images.githubusercontent.com/3909046/219942674-9894853e-def8-4180-84b8-6b577dacfcaa.png)",
+  "version": "1.2.0",
   "author": "S.Karenin",
-  "homepage": " index.js",
+  "homepage": "http:// index.js",
   "script": {
-  "dev": "astro dev",
-  "start": "astro dev",
-  "build": "astro build",
-  "preview": "astro preview"
-},
-
-
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
   "devDependencies": {
     "@astrojs/mdx": "^0.19.7",
     "@astrojs/partytown": "^1.0.3",
@@ -19,10 +17,10 @@
     "@typescript-eslint/eslint-plugin": "^5.50.0",
     "@typescript-eslint/parser": "^5.50.0",
     "accessible-astro-components": "^2.1.2",
-    "astro": "^2.0.1",
+    "astro": "^2.10.12",
     "astro-compress": "^2.0.6",
     "astro-icon": "^0.7.3",
-    "eslint": "^8.33.0",
+    "eslint": "^8.47.0",
     "eslint-plugin-astro": "^0.23.0",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "prettier": "^2.8.3",
@@ -34,5 +32,18 @@
   },
   "dependencies": {
     "requirements": "^1.4.1"
-  }
+  },
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/remarkmediagroup/astrotheme"
+  },
+  "keywords": [
+    "Base",
+    "webApp"
+  ],
+  "license": "ISC"
 }
