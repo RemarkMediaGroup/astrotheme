@@ -4,46 +4,64 @@ import Hero from '../components/Hero.astro'
 import Feature from '../components/Feature.astro'
 import Counter from '../components/Counter.astro'
 import ContentMedia from '../components/ContentMedia.astro'
+import  Card  from '../pages/accessible-components.astro'
 ---
 
 <DefaultLayout title="Home">
   <Hero />
   <section class="my-64">
     <div class="container">
-      <h2 class="mb-16 text-6xl">Features</h2>
+
+      <h2 class="mb-16 text-6xl">Для работы</h2>
       <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
-        <Feature icon="mdi:tailwind" title="Tailwind CSS">
-          Use the power of Tailwind to greatly improve your productivity and enhance your developer workflow.
+        <Feature icon="mdi:tailwind" title="Отчет по продажам">
+          Автоматический сбор и компиляция данных из 1С и нескольких документов - в один exel файл.
+          <br></br>
+          <button type="background"  style=" border-radius: 5px;";
+           <a href="#">перейти</a></button>
         </Feature>
-        <Feature icon="mdi:wheelchair-accessibility" title="a11y Components">
-          17 components and counting, all tried and tested for the most optimal accessible experience for your visitors.
+        <Feature icon="mdi:wheelchair-accessibility" title="Отчеты ГСМ">
+          Автоматически формируемые отчеты ГСМ, база автомобилей и документов менеджеров, утвержденные маршруты
+            
+            <br></br>
+          <button type="background"  style=" border-radius: 5px;"
+           <a href="#">перейти</a></button>
         </Feature>
-        <Feature icon="mdi:looks" title="Prettier">
-          Less worry about formatting your code, let the Astro Prettier integration do the heavy lifting.
+        <Feature icon="mdi:looks" title="Список задач">
+          Подключи почтовый ящик, выбери слова "триггер" - и не упусти ни одного письма с пометками "ВАЖНО"СУПЕРВАЖНО"УЛЬТРАВАЖНО".
+          
+            <br></br>
+          <button type="background"  style=" border-radius: 5px;";
+           <a href="#/">перейти</a></button>
         </Feature>
-        <Feature icon="mdi:eslint" title="ESLint">
-          Lint your code with strict a11y settings to ensure you stay on track with the WCAG standards.
-        </Feature>
-        <Feature icon="mdi:book-open-page-variant" title="Blog">
+        <Feature icon="mdi:eslint" title="Заявки">
+Плановые и внеплановые заявки. Авто парсинг сайтов Авито, Леруа, Петрович. Авто заполнение таблиц. Генерация текста комментария к заявке с помощью chatGPT        </Feature>
+        
+        <Feature icon="mdi:book-open-page-variant" title="Матрицы, Стандарты, Документы">
           This theme comes with a fully integrated blog, dynamic pages and SEO optimization.
         </Feature>
-        <Feature icon="mdi:language-markdown" title="Markdown & MDX">
-          Easily use .md and .mdx pages to build your websites or use it with Netlify CMS.
+        
+        <Feature icon="mdi:language-markdown" title="Срочная рассылка">
+          Используй удобное окно, с доступом ко всем мессенджерам, где заранее можно определить контакты и группы в которые сообщения будут пересылаться
         </Feature>
-        <Feature icon="mdi:theme-light-dark" title="Dark mode">
-          Fully integrated Dark mode gives your users the choice for their favorite viewing mode.
+       
+        <Feature icon="mdi:theme-light-dark" title="Облачные сервера">
+          Подключай, выгружай-загружай любые файлы методом перетаскивания
         </Feature>
-        <Feature icon="mdi:cog" title="Design System">
-          The theme offers some very handy utilities to help you build your website faster.
+       
+        <Feature icon="mdi:cog" title="Инструменты дизайнера">
+          Создать QR код, сконвертировать и автоматически переимоновать /обрезать изображения, удалить задний фон одним кликом, или сгенерировать изображение 
         </Feature>
-        <Feature icon="mdi:lighthouse" title="Lighthouse Scores">
-          Excellent lighthouse scores means your website will load faster and get better SEO rankings.
+       
+        <Feature icon="mdi:lighthouse" title="Штат, Табель, Видеокамеры">
+          Бета-тестирования доступа к камерам , и авто-обработок  и расшифровок УТ и КОРП
+       
         </Feature>
       </div>
     </div>
   </section>
   <ContentMedia imgSrc="/accessible-components.webp">
-    <h2>Accessible Components</h2>
+    <h2>SOLNCE helpers</h2>
     <p class="text-2xl">
       This theme provides plenty of tried and tested Accessible Astro Components. Some are native to this theme and a
       lot of others are integrated using a <a href="https://github.com/markteekman/accessible-astro-components"
@@ -70,4 +88,3 @@ import ContentMedia from '../components/ContentMedia.astro'
       </div>
     </div>
   </section>
-</DefaultLayout>
